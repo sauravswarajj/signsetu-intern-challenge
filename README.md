@@ -1,7 +1,20 @@
 🚀 Project Title & Tagline
 ==========================
 ### SignSetu Intern Challenge 🚀
-_A Next-Generation Web Application for Interns to Showcase their Skills_
+This is a submission for the Full Stack Development Intern coding assignment. The project, "RLS Guard Dog," demonstrates a secure web application with a full authentication flow and role-based data access control built with a modern tech stack.
+
+### Live Demo
+
+You can test the live application here: **https://signsetu.sauravswaraj.com/**
+
+---
+### ✨ Features
+
+* **Secure User Authentication:** Full sign-up, sign-in, and email confirmation flow.
+* **Automatic Profile Creation:** A Postgres trigger automatically creates a user profile upon sign-up.
+* **Row-Level Security (RLS):** A security policy on the database ensures that users can only read and access their own private data.
+* **Modern, Responsive UI:** A clean and mobile-friendly interface built with Tailwind CSS and shadcn/ui.
+
 
 📖 Description
 ---------------
@@ -80,6 +93,24 @@ The application uses the following APIs:
 * **Next.js API**: The application uses the Next.js API for server-side rendering and API routes.
 
 For more information on the APIs used in the application, please refer to the API documentation.
+
+### 🧪 How to Test the Live Application
+
+Please follow these steps to test the core security feature:
+
+1.  **Visit the Live URL:** Navigate to **https://signsetu.sauravswaraj.com/**.
+2.  **Create an Account:** Use the "Sign up" button to create a new account with your email.
+3.  **Confirm Your Email:** Check your inbox for a confirmation link and click it to verify your account.
+4.  **Sign In:** You will be redirected back. Please sign in with the credentials you just created.
+5.  **Navigate to the Dashboard:** After signing in, you will be taken to the dashboard page.
+
+#### Expected Result
+
+The dashboard will display the title "Your Grades" but the list of grades will be **empty**.
+
+**This is the correct and expected behavior.** It successfully demonstrates that the Row-Level Security policy is working. As a new user, you have no grades in the database, and the policy is correctly preventing you from seeing grades that belong to other test users.
+
+---
 
 👤 Author
 -------------
