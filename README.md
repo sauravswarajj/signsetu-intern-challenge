@@ -67,10 +67,11 @@ To test the application, follow these steps:
 ----------------
 Here are some screenshots of the application:
 
-* **Home Page/Login Page**: [![Login Page](<img width="1381" height="879" alt="signsetu-intern-challenge vercel app_" src="https://github.com/user-attachments/assets/2e011d11-11a9-4a03-9f4c-91095ed1238d" />
-)
-* **Dashboard**: [![Dashboard](<img width="1381" height="879" alt="signsetu-intern-challenge vercel app_ (1)" src="https://github.com/user-attachments/assets/620fb3d9-9f0a-44c4-bdc7-5815bf741178" />
-)
+* **Home Page/Login Page**: <img width="1381" height="879" alt="signsetu-intern-challenge vercel app_" src="https://github.com/user-attachments/assets/2e011d11-11a9-4a03-9f4c-91095ed1238d" />
+
+* **Dashboard**: <img width="1381" height="879" alt="signsetu-intern-challenge vercel app_ (1)" src="https://github.com/user-attachments/assets/620fb3d9-9f0a-44c4-bdc7-5815bf741178" />
+
+
 📦 API Reference
 ------------------
 The application uses the following APIs:
